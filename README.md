@@ -8,6 +8,4 @@ Cześć! Mam na imię Agnieszka. Zdecydowałam się na udział w projekcie, aby 
 Moim głównym celem jest sprawdzenie siebie oraz zobaczenie czy jest to kierunek w którym chcę się rozwijać i wiązać z nim moją dalszą przyszłość. 
 
 
-
-
 *Agnieszka*
