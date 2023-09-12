@@ -15,7 +15,7 @@ Aplikacja Scouts Panel przeznaczona jest dla skautów piłki nożnej w celu zgro
 
 Funkcjonalności:
 
-*Przed zalogowaniem:
-  *zmiana języka
-  *przypomnienie hasła
+* Przed zalogowaniem:
+  * zmiana języka
+  * przypomnienie hasła
 
