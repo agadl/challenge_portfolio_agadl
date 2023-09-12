@@ -16,12 +16,36 @@ Aplikacja Scouts Panel przeznaczona jest dla skautów piłki nożnej w celu zgro
 Funkcjonalności:
 
 Przed zalogowaniem:
-  * zmiana języka
-  * przypomnienie hasła
+* możliwość zmiany języka
+* możliwość przypomnienia hasła
 * możliwość zalogowania
   
 Po zalogowaniu:
 * możliwość wylogowania
 * możliwość dodawania graczy oraz ich aktualizowania
-* 
+* możliwość przeglądania list graczy
+* możliwość pobrania oraz wydrukowania listy graczy
+* możliwość odznaczenia wybranych kolumn
+* możliwość filtrowania według wybranych kryteriów
+* możliwość tworzenia meczów oraz edytowania meczów
+* możliwość rozpoczęcia meczu
+* możliwość dodawania oraz edytowania raportów meczowych
+
+Formularze:
+* możliwość wyboru cyfry w polach “waga” oraz “wzrost”
+* możliwość wyboru daty z kalendarza w polu “data urodzenia”
+* możliwość wyboru województwa oraz dominującej nogi
+* możliwość dodania linku do YouTube
+* możliwość dodania języków
+* możliwość zapisania formularza
+* możliwość wyczyszczenia formularza
+
+Raporty:
+* możliwość cofnięcia oraz ponowienia wpisanego tekstu
+* możliwość zmiany wielkości czcionki
+* możliwość pogrubienia pochylenia oraz podkreślenia wpisywanego tekstu
+* możliwość dodania nagłowka 1 oraz 2 stopnia
+* możliwość dodania bloku kodu
+* możliwość dodania cytatu
+
 
