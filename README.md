@@ -13,7 +13,7 @@ Moim głównym celem jest sprawdzenie siebie oraz zobaczenie czy jest to kierune
 ## Subtask 4
 Aplikacja Scouts Panel przeznaczona jest dla skautów piłki nożnej w celu zgromadzenia młodych talentów. Aplikacja polega na dodawaniu i przeglądaniu graczy oraz ich umiejętności, dodawaniu meczów oraz na tworzeniu raportów meczowych.
 
-**Funkcjonalności:**
+**Funkcjonalności**
 
 Przed zalogowaniem:
 * możliwość zmiany języka
