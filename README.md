@@ -64,7 +64,7 @@ Interfejs aplikacji wygląda na niedopracowany, uproszczony. Szata graficzna jes
   * w polu “czas gry” można wybrać ujemną wartość 
   * w polu “numer” można dodawać duże wartości
   * w polu “zdobyte gole” można wpisywać inne wartości niż cyfry
-  * po wyborze języka polskiego, zostają nagłówki w języku angielskim “web mach” oraz “general”
+  * po wyborze języka polskiego, zostają nagłówki w języku angielskim “web match” oraz “general”
 * w obu formularzach: 
   * po wyborze języka polskiego, zostają przyciski “submit” oraz “clear”
 * raporty: 
