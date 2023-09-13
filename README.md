@@ -48,6 +48,34 @@ Raporty:
 * możliwość dodania bloku kodu
 * możliwość dodania cytatu
 
-Interfejs aplikacji wygląda na niedopracowany, uproszczony. Szata graficzna jest spójna, przejrzysta, jednak rozmieszczenie elementów na stronie jest nieczytelne i wygląda na nieprzemyślane. Niektórych funkcji aplikacji (np. listy meczów, raportów lub rozpoczęcie meczu) trzeba poszukać, co komplikuje używanie aplikacji i może być problematyczne dla nowych użytkowników. Nawigacja jest mało intuicyjna (np. logo nie przenosi na stronę główną, nie można dodać nowego gracza z panelu “gracze” tylko przez linki pomocnicze, kontakt znajduje się pod sloganem, w tabeli brak wskaźnika możlowości kliknięcia na wybrany wiersz). Formularz wygląda chaotycznie, dane nie posiadają hierarchii ważności oraz nie są pogrupowane, przy niepoprawnym wypełnieniu formularza pojawia się informacja, lecz nie wskazuje gdzie popełniono błąd. Funkcja “rozpocznij mecz” nie wyjaśnia zasad oraz celu tej opcji. 
+Interfejs aplikacji wygląda na niedopracowany, uproszczony. Szata graficzna jest spójna, przejrzysta, jednak rozmieszczenie elementów na stronie jest nieczytelne i wygląda na nieprzemyślane. Niektórych funkcji aplikacji (np. listy meczów, raportów lub rozpoczęcie meczu) trzeba poszukać, co komplikuje używanie aplikacji i może być problematyczne dla nowych użytkowników. Nawigacja jest mało intuicyjna (np. logo nie przenosi na stronę główną, nie można dodać nowego gracza z panelu “gracze” tylko przez linki pomocnicze, kontakt znajduje się pod sloganem, w tabeli brak wskaźnika możlowości kliknięcia na wybrany wiersz). Formularz wygląda chaotycznie, dane nie posiadają hierarchii ważności oraz nie są pogrupowane. Funkcja “rozpocznij mecz” nie wyjaśnia zasad oraz celu tej opcji, ciężko się domyśleć, że dane w raporcie pochądzą z tej opcji.
 
-
+*formularz dodawania gracza
+  *w polu “waga” oraz “wiek” można wybrać ujemną wartość
+  *w polu “data urodzenia” można wybrać dzisiejszą datą 
+  *w polu “telefon” można używać słów
+  *można zapisać gracza z dodanymi pustymi językami oraz z pustymi linkami do youtube
+*formularz dodawania meczu
+  *w polu “czas gry” można wybrać ujemną wartość 
+  *w polu “numer” można dodawać duże wartości
+  *w polu “zdobyte gole” można wpisywać inne wartości niż cyfry
+  *po wyborze języka polskiego, zostają nagłówki w języku angielskim “web mach” oraz “general”
+*w obu formularzach: 
+  *po wyborze języka polskiego, zostają przyciski “submit” oraz “clear”
+*raporty: 
+  *po wyborze języka polskiego, zostaje przycisk “save”
+  *w zakładce raporty -> dodaj raport brak możliwości dodania raportu- przenosi do zakładki “mecze” 
+*lista zdarzeń:
+  *niepoprawne wyświetlane dane w polu “metadane”
+*akcja “dodaj grę” 
+  *możliwość wyboru więcej niż 2 połowy meczu
+  *po nie zapisaniu meczu, brak możliwości powrotu do raportu na stronie głównej (link nie przenosi do raportu) 
+*menu boczne:
+  *dłuższe imię gracza nie mieści się (nie zawija się/ nie łamie się)
+*tabele:
+  *tabela nie mieści się na ekranie, trzeba przewijać w bok
+  *eksport do pliku CSV nie eksportuje poprawnie danych
+*filtry:
+  *słowo “rate”,  “age”, “reset”, “filters”  zostaje po angielsku
+  *w polach “age” oraz “rate” można wpisywać słowa
+  *po kliknięciu “reset” czyści się formularz z filtrami, ale nie odświeża wyników wyszukiwania 
