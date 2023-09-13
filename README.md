@@ -79,3 +79,5 @@ Interfejs aplikacji wygląda na niedopracowany, uproszczony. Szata graficzna jes
   *słowo “rate”,  “age”, “reset”, “filters”  zostaje po angielsku
   *w polach “age” oraz “rate” można wpisywać słowa
   *po kliknięciu “reset” czyści się formularz z filtrami, ale nie odświeża wyników wyszukiwania 
+
+
