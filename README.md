@@ -86,3 +86,12 @@ Interfejs aplikacji wygląda na niedopracowany, uproszczony. Szata graficzna jes
   * po kliknięciu “reset” czyści się formularz z filtrami, ale nie odświeża wyników wyszukiwania 
 
 
+# TASK 2
+## Subtask 1
+[Subtask 1- Test Cases](https://docs.google.com/document/d/1x5sTsQI7IxQ1qleXNk3y63XW2KPiHL8rcuWvVYaJn6g/edit)
+
+## Subtask 2
+[Subtask 2- Test Cases](https://docs.google.com/document/d/1TIAIRdCGoh3Ij8Lw7SZsQgytXLdsQKmNmWlpwGDcZKs/edit)
+
+## Subtask 3
+Przypadki testowe piszemy aby określić rożne możliwości obsłużenia funkcjonalności w danej aplikacji oraz aby określić czy funkcjonalności w tej aplikacji działają jak w założeniach.
