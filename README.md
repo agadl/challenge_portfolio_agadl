@@ -88,10 +88,12 @@ Interfejs aplikacji wygląda na niedopracowany, uproszczony. Szata graficzna jes
 
 # TASK 2
 ## Subtask 1
+Przypadki testowe na podstawie User Story
 [Subtask 1- Test Cases](https://docs.google.com/document/d/1x5sTsQI7IxQ1qleXNk3y63XW2KPiHL8rcuWvVYaJn6g/edit)
 
 ## Subtask 2
+Przypadków testowe na podstawie “własnych doświadczeń”
 [Subtask 2- Test Cases](https://docs.google.com/document/d/1TIAIRdCGoh3Ij8Lw7SZsQgytXLdsQKmNmWlpwGDcZKs/edit)
 
 ## Subtask 3
-Przypadki testowe piszemy aby określić rożne możliwości obsłużenia funkcjonalności w danej aplikacji oraz aby określić czy funkcjonalności w tej aplikacji działają jak w założeniach.
+Przypadki testowe piszemy aby określić rożne możliwości obsłużenia funkcjonalności w danej aplikacji, określają krok po kroku jak przetestować dane funkcjonalności, zachowują spójność testowania oraz dzięki nim możemy określić czy funkcjonalności w tej aplikacji działają jak w założeniach.
