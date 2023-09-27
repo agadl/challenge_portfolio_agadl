@@ -101,3 +101,15 @@ Przypadków testowe na podstawie “własnych doświadczeń”
 *Dlaczego piszemy przypadki testowe?*
 
 Przypadki testowe piszemy aby określić rożne możliwości obsłużenia funkcjonalności w danej aplikacji, określają krok po kroku jak przetestować dane funkcjonalności, zachowują spójność testowania oraz dzięki nim możemy określić czy funkcjonalności w tej aplikacji działają jak w założeniach.
+
+
+# TASK 3
+## Subtask 1
+Testowanie według planów testów i raportowanie błędów
+
+[Subtask 1- Bug report](https://docs.google.com/document/d/1zn6VZvY1f6JkUeFM6WFJZrCZsTYoVDdlK1gc_G4ba0Q/edit)
+
+## Subtask 2
+Raport z wykonanych testów
+
+[Subtask 2- Test report](https://docs.google.com/document/d/1zazY6ulPNHTESfX71vTq3DC_WG9-BBsXxT9IcacUb6g/edit)
