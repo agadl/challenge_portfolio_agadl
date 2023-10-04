@@ -142,7 +142,7 @@ Moim zdaniem aplikacja działa bardzo dobrze, funkcjonalności są przemyślane 
 
 *5. Jakie dostrzegasz różnice pomiędzy testowaniem aplikacji internetowej, a natywnej?*
 
-Testując aplikację internetową nie musimy zastanawiać się, jak dana aplikacja działa na różnych urządzeniach jak w przypadku aplikacji natywnych- na różnych urządzeniach mogą pojawiać się inne błędy. 
+    Testując aplikację internetową nie musimy zastanawiać się, jak dana aplikacja działa na różnych urządzeniach jak w przypadku aplikacji natywnych- na różnych  urządzeniach mogą pojawiać się inne błędy. 
 
 Podczas testowania aplikacji internetowej dużą pomocą jest zestaw narzędzi DevTools. 
 
