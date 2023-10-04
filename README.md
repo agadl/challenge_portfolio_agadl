@@ -117,22 +117,29 @@ Raport z wykonanych testów
 
 # TASK 4
 ## Subtask 1
+Testowanie eksploracyjne i raportowanie błędów
 
+[Subtask 1- Bug report](https://docs.google.com/document/d/1yewbd12gb6GrFdQXLg27buW5Mb5ZMsNBcn1UdiNUQRg/edit)
 
 ## Subtask 2
 *1. Do czego służy ta aplikacja? Jaki jest cel tej aplikacji?*
+
 Aplikacja OLX jest platformą z ogłoszeniami. Korzystając z aplikacji można kupować, sprzedawać, wymieniać się produktami, ale również można dodać ogłoszenie oferujące usługi jak i oferty pracy. 
 
 *2. Kto ma być użytkownikiem końcowym aplikacji?*
+
 W aplikacji OLX mamy dwie kategorie użytkowników końcowych- tych którzy dodają ogłoszenia i tych którzy tych ogłoszeń szukają.
 
 *3. Czy według Ciebie aplikacja jest user friendly?*
+
 Uważam, że aplikacja OLX jest przyjazna użytkownikom. Jest przejrzysta, czytelna, intuicyjna, szybka oraz bezpłatna.
 
 *4. Jak byś usprawnił aplikację?*
+
 Aby poprawić aplikację dodałabym szerszy wachlarz filtrów. Np. wybierając kategorię ‘Dom i Ogród’ chciałabym mieć możliwość wyboru czego szukam- czy do domu (np. meble, wyposażenie, oświetlenie) czy do ogrodu (np. meble, narzędzia ogrodowe, rośliny).
 
 *5. Jakie dostrzegasz różnice pomiędzy testowaniem aplikacji internetowej, a natywnej?*
+
 Testując aplikację internetową nie musimy zastanawiać się, jak dana aplikacja działa na różnych urządzeniach jak w przypadku aplikacji natywnych- na różnych urządzeniach mogą pojawić się inne błędy. 
 
 Podczas testowania aplikacji internetowej dużą pomocą jest zestaw narzędzi DevTools. 
