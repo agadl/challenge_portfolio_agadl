@@ -146,7 +146,52 @@ Testując aplikację internetową nie musimy zastanawiać się, jak dana aplikac
 
 Podczas testowania aplikacji internetowej dużą pomocą jest zestaw narzędzi DevTools. 
 
+# TASK 5
+## Subtask 3
 
+*1. Wyświetl tabelę actors w kolejności alfabetycznej sortując po kolumnie surname.
+
+'''
+SELECT *
+FROM actors
+ORDER BY surname;
+''' 
+<img width="244" alt="Screenshot 2023-10-06 at 14 58 36" src="https://github.com/agadl/challenge_portfolio_agadl/assets/144120639/ad9ba75f-6d04-4b45-8d8c-576a2d3fd4bd">
+
+
+*2. Wyświetl film, który powstał w 2019 roku.
+
+
+
+*3. Wyświetl wszystkie filmy, które powstały między 1900, a 1999 rokiem.
+
+
+
+*4. Wyświetl JEDYNIE tytuł i cenę filmów, które kosztują poniżej 7$.
+
+
+
+*5. Użyj operatora logicznego AND, aby wyświetlić aktorów o actor_id pomiędzy 4-7 (4 i 7 powinny się wyświetlać). NIE UŻYWAJ operatora BETWEEN.
+
+
+
+*6. Wyświetl klientów o id 2,4,6 wykorzystaj do tego warunek logiczny.
+
+
+
+*7. Wyświetl klientów o id 1,3,5 wykorzystaj do tego operator IN.
+
+
+
+*8. Wyświetl dane wszystkich osób z tabeli ‘actors’, których imię zaczyna się od ciągu “An”.
+
+
+
+*9. Wyświetl dane klienta, który nie ma podanego adresu email.
+
+
+
+*10. Wyświetl wszystkie filmy, których cena wynosi powyżej 9$ oraz ich ID mieści się pomiędzy 2 i 8 movie_id.
 
 
 
