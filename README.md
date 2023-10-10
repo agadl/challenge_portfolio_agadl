@@ -151,7 +151,7 @@ Podczas testowania aplikacji internetowej dużą pomocą jest zestaw narzędzi D
 
 *1. Wyświetl tabelę actors w kolejności alfabetycznej sortując po kolumnie surname.
 
-```
+```sql
 SELECT *
 FROM actors
 ORDER BY surname;
