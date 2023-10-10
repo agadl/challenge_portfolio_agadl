@@ -160,6 +160,8 @@ ORDER BY surname;
 <img width="244" alt="Screenshot 2023-10-06 at 14 58 36" src="https://github.com/agadl/challenge_portfolio_agadl/assets/144120639/ad9ba75f-6d04-4b45-8d8c-576a2d3fd4bd">
 
 
+
+
 *2. Wyświetl film, który powstał w 2019 roku.*
 
 ```sql
