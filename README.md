@@ -149,7 +149,7 @@ Podczas testowania aplikacji internetowej dużą pomocą jest zestaw narzędzi D
 # TASK 5
 ## Subtask 3
 
-*1. Wyświetl tabelę actors w kolejności alfabetycznej sortując po kolumnie surname.
+*1. Wyświetl tabelę actors w kolejności alfabetycznej sortując po kolumnie surname.*
 
 ```sql
 SELECT *
@@ -160,7 +160,7 @@ ORDER BY surname;
 <img width="244" alt="Screenshot 2023-10-06 at 14 58 36" src="https://github.com/agadl/challenge_portfolio_agadl/assets/144120639/ad9ba75f-6d04-4b45-8d8c-576a2d3fd4bd">
 
 
-*2. Wyświetl film, który powstał w 2019 roku.
+*2. Wyświetl film, który powstał w 2019 roku.*
 
 ```sql
 SELECT *
@@ -170,7 +170,8 @@ WHERE year_of_production = 2019;
 
 <img width="327" alt="Screenshot 2023-10-06 at 14 43 34" src="https://github.com/agadl/challenge_portfolio_agadl/assets/144120639/7e581d4c-38ff-4876-b137-5e3b8657bd4f">
 
-*3. Wyświetl wszystkie filmy, które powstały między 1900, a 1999 rokiem.
+
+*3. Wyświetl wszystkie filmy, które powstały między 1900, a 1999 rokiem.*
 
 ```sql
 SELECT *
@@ -180,7 +181,8 @@ WHERE year_of_production BETWEEN 1900 AND 1999;
 
 <img width="484" alt="Screenshot 2023-10-06 at 14 51 54" src="https://github.com/agadl/challenge_portfolio_agadl/assets/144120639/5bfdbe3b-3585-46c4-ae23-b0e5f317b091">
 
-*4. Wyświetl JEDYNIE tytuł i cenę filmów, które kosztują poniżej 7$.
+
+*4. Wyświetl JEDYNIE tytuł i cenę filmów, które kosztują poniżej 7$.*
 
 ```sql
 SELECT title, price
@@ -190,7 +192,8 @@ WHERE price < 7;
 
 <img width="283" alt="Screenshot 2023-10-10 at 11 01 23" src="https://github.com/agadl/challenge_portfolio_agadl/assets/144120639/089571c0-8311-4214-91c2-7927cdcfb922">
 
-*5. Użyj operatora logicznego AND, aby wyświetlić aktorów o actor_id pomiędzy 4-7 (4 i 7 powinny się wyświetlać). NIE UŻYWAJ operatora BETWEEN.
+
+*5. Użyj operatora logicznego AND, aby wyświetlić aktorów o actor_id pomiędzy 4-7 (4 i 7 powinny się wyświetlać). NIE UŻYWAJ operatora BETWEEN.*
 
 ```sql
 SELECT *
@@ -201,7 +204,7 @@ WHERE actor_id >= 4 AND actor_id <= 7;
 <img width="229" alt="Screenshot 2023-10-10 at 11 18 09" src="https://github.com/agadl/challenge_portfolio_agadl/assets/144120639/a9e7e801-d522-45c5-8cbd-3b12b5afe4a4">
 
 
-*6. Wyświetl klientów o id 2,4,6 wykorzystaj do tego warunek logiczny.
+*6. Wyświetl klientów o id 2,4,6 wykorzystaj do tego warunek logiczny.*
 
 ```sql
 SELECT * 
@@ -211,7 +214,8 @@ WHERE customer_id % 2 = 0;
 
 <img width="344" alt="Screenshot 2023-10-10 at 11 25 24" src="https://github.com/agadl/challenge_portfolio_agadl/assets/144120639/0593d37a-a12c-412e-9daa-9a12c888b7fd">
 
-*7. Wyświetl klientów o id 1,3,5 wykorzystaj do tego operator IN.
+
+*7. Wyświetl klientów o id 1,3,5 wykorzystaj do tego operator IN.*
 
 ```sql
 SELECT * 
@@ -221,7 +225,8 @@ WHERE customer_id IN (1, 3, 5);
 
 <img width="344" alt="Screenshot 2023-10-10 at 11 27 49" src="https://github.com/agadl/challenge_portfolio_agadl/assets/144120639/8020fb19-cec6-40e2-81b3-8141df72fa10">
 
-*8. Wyświetl dane wszystkich osób z tabeli ‘actors’, których imię zaczyna się od ciągu “An”.
+
+*8. Wyświetl dane wszystkich osób z tabeli ‘actors’, których imię zaczyna się od ciągu “An”.*
 
 ```sql
 SELECT * 
@@ -231,7 +236,8 @@ WHERE name LIKE 'An%';
 
 <img width="208" alt="Screenshot 2023-10-10 at 12 08 27" src="https://github.com/agadl/challenge_portfolio_agadl/assets/144120639/acc41964-2f63-43ce-a963-a1f08d721565">
 
-*9. Wyświetl dane klienta, który nie ma podanego adresu email.
+
+*9. Wyświetl dane klienta, który nie ma podanego adresu email.*
 
 ```sql
 SELECT * 
@@ -241,7 +247,8 @@ WHERE email IS null;
 
 <img width="283" alt="Screenshot 2023-10-10 at 11 31 28" src="https://github.com/agadl/challenge_portfolio_agadl/assets/144120639/33891b66-0bbe-49ea-8d68-9c9041e672de">
 
-*10. Wyświetl wszystkie filmy, których cena wynosi powyżej 9$ oraz ich ID mieści się pomiędzy 2 i 8 movie_id.
+
+*10. Wyświetl wszystkie filmy, których cena wynosi powyżej 9$ oraz ich ID mieści się pomiędzy 2 i 8 movie_id.*
 
 ```sql
 SELECT *
