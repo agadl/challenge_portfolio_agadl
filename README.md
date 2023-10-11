@@ -148,7 +148,6 @@ Podczas testowania aplikacji internetowej dużą pomocą jest zestaw narzędzi D
 
 # TASK 5
 ## Subtask 1
-SQL:  
 1. SELECT Statement
 2. SELECT DISTINCT Statement
 3. WHERE Clause
