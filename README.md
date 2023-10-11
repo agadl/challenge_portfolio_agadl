@@ -148,23 +148,23 @@ Podczas testowania aplikacji internetowej dużą pomocą jest zestaw narzędzi D
 
 # TASK 5
 ## Subtask 1
-SQL 
-  \1. SELECT Statement
-  \2. SELECT DISTINCT Statement
-  \3. WHERE Clause
-  \4. ORDER BY
-  \5. AND Operator
-  \6. OR Operator
-  \7. NOT Operator
-  \8. LIKE Operator
-  \9. IN Operator
-  \10. BETWEEN Operator
-  \11. Aliases
-  \12. JOIN
-  \13. COUNT() Function
-  \14. SUM() Function
-  \15. MIN() and MAX() Functions
-  \16. GROUP BY Statement
+SQL:  
+1. SELECT Statement
+2. SELECT DISTINCT Statement
+3. WHERE Clause
+4. ORDER BY
+5. AND Operator
+6. OR Operator
+7. NOT Operator
+8. LIKE Operator
+9. IN Operator
+10. BETWEEN Operator
+11. Aliases
+12. JOIN
+13. COUNT() Function
+14. SUM() Function
+15. MIN() and MAX() Functions
+16. GROUP BY Statement
 
 
 ## Subtask 3
