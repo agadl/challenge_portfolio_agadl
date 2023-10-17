@@ -138,7 +138,7 @@ Uważam, że aplikacja OLX jest przyjazna użytkownikom. Jest przejrzysta, czyte
 
 *4. Jak byś usprawnił aplikację?*
 
-Moim zdaniem aplikacja działa bardzo dobrze, funkcjonalności są przemyślane oraz łatwe w obsłudze i na ten moment nie widzę potrzeby usprwniania żadnych z funkcjonalności. 
+Moim zdaniem aplikacja działa bardzo dobrze, funkcjonalności są przemyślane oraz łatwe w obsłudze i na ten moment nie widzę potrzeby usprawniania żadnych z funkcjonalności. 
 
 *5. Jakie dostrzegasz różnice pomiędzy testowaniem aplikacji internetowej, a natywnej?*
 
@@ -276,3 +276,113 @@ WHERE (price > 9) AND (movie_id BETWEEN 2 AND 8);
 ```
 
 <img width="350" alt="Screenshot 2023-10-10 at 11 38 22" src="https://github.com/agadl/challenge_portfolio_agadl/assets/144120639/b1ad5709-f10e-44cd-beaa-ccddcb50b820">
+
+
+# TASK 6
+## Subtask 1
+*11. Popełniłam błąd wpisując nazwisko Ani Miler – wpisałam Muler. Znajdź i zastosuj funkcję, która poprawi błąd.*
+```sql
+UPDATE customers 
+SET surname = 'Miler' 
+WHERE name = 'Ania' AND surname=’Muler’;
+```
+
+<img width="344" alt="Screenshot 2023-10-13 at 13 17 28" src="https://github.com/agadl/challenge_portfolio_agadl/assets/144120639/667576c9-c339-4c2f-aab8-19c906d50a38">
+
+
+*12. Pobrałam za dużo pieniędzy od klienta, który kupił w ostatnim czasie film o id 4. Korzystając z funkcji join sprawdź, jak ma na imię klient i jakiego ma maila w celu napisania mu wiadomości o pomyłce.*
+```sql
+SELECT sale.customer_id, sale.movie_id, customers.name, customers.email
+FROM sale
+JOIN customers ON sale.customer_id=customers.customer_id
+WHERE movie_id=4;
+```
+
+<img width="332" alt="Screenshot 2023-10-16 at 13 39 38" src="https://github.com/agadl/challenge_portfolio_agadl/assets/144120639/ed16348b-1c5e-44a1-9aa7-f5ae9990681a">
+
+
+*13. Na pewno zauważył_ś, że sprzedawca zapomniał wpisać emaila klientce Patrycji. Uzupełnij ten brak wpisując: pati@mail.com.*
+```sql
+UPDATE customers
+SET email = 'pati@mail.com'
+WHERE name = 'Patrycja' AND surname = 'Komor';
+```
+
+<img width="347" alt="Screenshot 2023-10-16 at 13 43 56" src="https://github.com/agadl/challenge_portfolio_agadl/assets/144120639/70cb6a0b-40cf-49d2-aa8d-193b2b9a3e99">
+
+
+*14. Dla każdego zakupu wyświetl, imię i nazwisko klienta, który dokonał wypożyczenia oraz tytuł wypożyczonego filmu.*
+```sql
+SELECT sale.customer_id, sale.movie_id, sale.sale_date, customers.name, customers.surname, movies.title
+FROM sale
+INNER JOIN customers ON sale.customer_id = customers.customer_id
+INNER JOIN movies ON sale.movie_id = movies.movie_id;
+```
+
+<img width="621" alt="Screenshot 2023-10-16 at 13 51 23" src="https://github.com/agadl/challenge_portfolio_agadl/assets/144120639/a3f04ac3-cee3-43e1-bee4-953ece2353a2">
+
+
+*15. W celu anonimizacji danych, chcesz stworzyć pseudonimy swoich klientów. - Dodaj kolumnę o nazwie ‘pseudonym’ do tabeli customer,- Wypełnij kolumnę w taki sposób, aby pseudonim stworzył się z dwóch pierwszych liter imienia i ostatniej litery nazwiska.*
+```sql
+ALTER TABLE customers
+ADD pseudonym varchar(200);
+```
+```sql
+UPDATE customers
+SET pseudonym = CONCAT(LEFT(name, 2), RIGHT(surname, 1));
+```
+
+<img width="439" alt="Screenshot 2023-10-16 at 15 07 52" src="https://github.com/agadl/challenge_portfolio_agadl/assets/144120639/3b2e4982-b603-485f-a2c2-16aaaa4b01e8">
+
+
+*16. Wyświetl tytuły filmów, które zostały zakupione, wyświetl tabelę w taki sposób, aby tytuły się nie powtarzały.*
+```sql
+SELECT DISTINCT sale.movie_id, movies.title
+FROM sale
+INNER JOIN movies ON sale.movie_id=movies.movie_id;
+```
+
+<img width="312" alt="Screenshot 2023-10-16 at 14 54 14" src="https://github.com/agadl/challenge_portfolio_agadl/assets/144120639/3626839a-0616-46a1-944f-4a7ee4686b1a">
+
+
+*17. Wyświetl wspólną listę imion wszystkich aktorów i klientów, a wynik uporządkuj alfabetycznie. (Wykorzystaj do tego funkcji UNION)*
+```sql
+SELECT name FROM customers
+UNION ALL
+SELECT name FROM actors
+ORDER BY name;
+```
+
+<img width="89" alt="Screenshot 2023-10-16 at 15 12 06" src="https://github.com/agadl/challenge_portfolio_agadl/assets/144120639/196e14ff-e625-4554-9013-6d40055d377a">
+
+
+*18. Polskę opanowała inflacja i nasz sklepik z filmami również dotknął ten problem. Podnieś cenę wszystkich filmów wyprodukowanych po 2000 roku o 2,5 $.*
+```sql
+UPDATE movies
+SET price = price + 2.5
+WHERE year_of_production > 2000;
+```
+
+<img width="500" alt="Screenshot 2023-10-16 at 15 37 49" src="https://github.com/agadl/challenge_portfolio_agadl/assets/144120639/fef6ad7e-a833-4587-8117-7b83d624e265">
+
+*19. Wyświetl imię i nazwisko aktora o id 4 i tytuł filmu, w którym zagrał.*
+```sql
+SELECT actors.actor_id, actors.name, actors.surname, movies.title
+FROM cast
+INNER JOIN actors ON cast.actor_id=actors.actor_id
+INNER JOIN movies ON cast.movie_id=movies.movie_id
+WHERE actors.actor_id = 4;
+```
+
+<img width="287" alt="Screenshot 2023-10-16 at 15 24 16" src="https://github.com/agadl/challenge_portfolio_agadl/assets/144120639/c34db536-53a9-4347-9fab-7a1be80d64e1">
+
+
+*20. Dodaj do tabeli customers nową krotkę, gdzie customer_id = 7, name = Honia, surname = Stuczka-Kucharska, email = honia@mail.com oraz pseudonym = Hoa*
+```sql
+INSERT INTO customers
+VALUES (7, 'Honia', 'Stuczka-Kucharska', 'honia@mail.com', 'Hoa');
+```
+
+<img width="485" alt="Screenshot 2023-10-16 at 15 45 55" src="https://github.com/agadl/challenge_portfolio_agadl/assets/144120639/2c88c97d-6dd4-4a47-a1fc-6b736de019c7">
+
+## Subtask 2
