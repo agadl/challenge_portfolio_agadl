@@ -386,3 +386,4 @@ VALUES (7, 'Honia', 'Stuczka-Kucharska', 'honia@mail.com', 'Hoa');
 <img width="485" alt="Screenshot 2023-10-16 at 15 45 55" src="https://github.com/agadl/challenge_portfolio_agadl/assets/144120639/2c88c97d-6dd4-4a47-a1fc-6b736de019c7">
 
 ## Subtask 2
+13/15 :relieved:
